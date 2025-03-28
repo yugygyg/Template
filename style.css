@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: white;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background: #eee;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.search-bar input {
+    border: none;
+    background: transparent;
+    outline: none;
+    padding: 5px;
+}
+
+.search-bar button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav ul  a {
+    text-decoration: none;
+    color: black;
+}
+
+.auth-buttons .signup,
+.auth-buttons .login {
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.auth-buttons .signup {
+    color: black;
+}
+
+.auth-buttons .login {
+    background: black;
+    color: white;
+}
+
+main {
+    padding: 40px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    color: black;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.author img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.availability {
+    color: gray;
+}
+
+.follow-btn {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cta-button {
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+    color: white;
+}
+
+.hero-text {
+    width: 50%;
+}
+
+.hero-text h3 {
+    color: black;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.hero-text p{
+    color: black;
+
+}
+
+.hero-image img {
+    width: 1000px;
+    height: 500px;
+    text-align: center;
+}
+.class Template-U18 p{
+    color:black;
+    font-size: 3px;
+}
+.Template-Highlights{
+    padding: 10px;
+    text-align: center;
+    color: black;
+    gap: 20px;
+}
+.Template2{
+    color: black;
+    padding: 10px;
+}
+.Template2-image{
+    width:200px;
+    height: 100px;
+}
+.Template2 h1 h2 h3{
+    color: black;
+    padding: 60px;
+    font-size: 20px;
+}
